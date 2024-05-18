@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+/* #linkGoogle {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #222222;
+  color: #ffffff;
+} */
+
+p {
+  color: gold;
+  background-color: #000000;
+  padding: 10px;
+}

@@ -5,6 +5,12 @@ function App() {
   return (
     <div className="App">
       <h1>Hello World, React!</h1>
+      <h2>Emmet funcionou</h2>
+      {/* <form action="https://www.google.com.br/">
+        <button id="linkGoogle">Site google</button>
+      </form> */}
+
+      <p>Meu primeiro parágrafo em React!</p>
     </div>
   );
 }
