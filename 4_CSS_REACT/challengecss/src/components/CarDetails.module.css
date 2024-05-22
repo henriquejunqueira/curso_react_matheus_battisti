@@ -1,0 +1,10 @@
+/* #listCars {
+  list-style-type: none;
+} */
+
+.card {
+  border: 1px solid #222222;
+  border-radius: 10px;
+  padding: 10px 50px;
+  margin: 10px;
+}
