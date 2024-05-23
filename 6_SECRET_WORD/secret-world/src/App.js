@@ -117,14 +117,17 @@ function App() {
     const uniqueLetters = [...new Set(letters)]; // ! cria um array de letras únicas. ex: ovo
 
     //* win condition
-    if (guessedLetters.length === uniqueLetters.length) {
+    if (
+      guessedLetters.length === uniqueLetters.length &&
+      gameStage === stages[1].name
+    ) {
       //* add score
       setScore((actualScore) => (actualScore += 100)); // ! aumenta a pontuação caso vença
 
       //* restart game with new word
       startGame();
     }
-  }, [guessedLetters, letters, startGame]);
+  }, [guessedLetters, letters, startGame, gameStage]);
 
   //* restarts the game
   const retry = () => {
