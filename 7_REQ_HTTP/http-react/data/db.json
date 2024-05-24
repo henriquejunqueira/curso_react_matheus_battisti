@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": "2",
+      "name": "Calça vermelha",
+      "price": 90
+    },
+    {
+      "id": "3",
+      "name": "Boné aba reta",
+      "price": 29.9
+    },
+    {
+      "id": "fc56",
+      "name": "mouse",
+      "price": "12"
+    },
+    {
+      "id": "c898",
+      "name": "teclado",
+      "price": "50.00"
+    },
+    {
+      "id": "fc50",
+      "name": "suporte monitor",
+      "price": "120.00"
+    },
+    {
+      "id": "f0e6",
+      "name": "cabo hdmi",
+      "price": "10.00"
+    },
+    {
+      "id": "3110",
+      "name": "suporte microfone",
+      "price": "60"
+    }
+  ]
+}
